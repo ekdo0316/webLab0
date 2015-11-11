@@ -52,12 +52,12 @@ window.onload = function () {
     }
 };
 function factorial (x) {
-	if(x == 1){
-		return 1;
-	}
-	else{
+	if(x != 1){
 		return x*factorial(x-1);
 	}
+    else{
+        return 1
+    }
 }
 
 function highPriorityCalculator(s, val) {
